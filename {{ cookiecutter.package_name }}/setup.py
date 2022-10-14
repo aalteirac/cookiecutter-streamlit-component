@@ -7,7 +7,9 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name="{{ cookiecutter.package_name }}",
-    version="0.1.0",
+    #begin 
+    version="0.1.0", 
+    #end
     author="{{ cookiecutter.author_name }}",
     author_email="{{ cookiecutter.author_email }}",
     description="{{ cookiecutter.description }}",
